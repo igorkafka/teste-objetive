@@ -1,0 +1,15 @@
+﻿<Window x:Class="Objective.Forms.PratoNewForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Objective.Forms"
+        mc:Ignorable="d"
+        Title="PratoNewForm" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="text_plate" HorizontalAlignment="Left" Margin="125,199,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="425" TextChanged="text_plate_TextChanged" Height="18"/>
+        <Button Content="Ok" HorizontalAlignment="Left" Margin="135,229,0,0" VerticalAlignment="Top" Click="Button_Click" Width="45"/>
+        <TextBlock HorizontalAlignment="Left" Margin="125,178,0,0" TextWrapping="Wrap" Text="Digite o nome do alimento que você pensou" VerticalAlignment="Top" Width="425"/>
+
+    </Grid>
+</Window>
